@@ -31,26 +31,24 @@ namespace cloud_style
 			socket.Listen(10);
 			// 포트 기다리기 시작
 
+			while (true)  //키를 누르면 종료
+			{
+
+				
 			Socket clientSock = socket.Accept();
 			// 연결을 받아들여 새 소켓 생성
 
 			byte[] buff = new byte[8192];
+			int n = socket.Receive(buff);
+			string data = Encoding.UTF8.GetString(buff,0,n);
 
-			while (!Console.KeyAvailable)  //키를 누르면 종료
-			{
-				int n = clientSock.Receive(buff);
-
-				string data = Encoding.UTF8.GetString(buff,0,n);
 				Console.WriteLine(data);
-				//소켓 수신
 
-				clientSock.Send(buff,0,n,SocketFlags.None); 
-
+				socket.Close();
+				socket.Dispose();
 			}
 
-			clientSock.Close();
-			socket.Close();
-
+			
 
 
 		}
