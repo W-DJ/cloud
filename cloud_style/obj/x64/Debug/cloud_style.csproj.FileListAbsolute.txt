@@ -1,0 +1,13 @@
+C:\Users\ansetech80\source\repos\cloud_style\cloud_style\bin\x64\Debug\cloud_style.exe.config
+C:\Users\ansetech80\source\repos\cloud_style\cloud_style\bin\x64\Debug\cloud_style.exe
+C:\Users\ansetech80\source\repos\cloud_style\cloud_style\bin\x64\Debug\cloud_style.pdb
+C:\Users\ansetech80\source\repos\cloud_style\cloud_style\obj\x64\Debug\cloud_style.csproj.AssemblyReference.cache
+C:\Users\ansetech80\source\repos\cloud_style\cloud_style\obj\x64\Debug\cloud_style.csproj.SuggestedBindingRedirects.cache
+C:\Users\ansetech80\source\repos\cloud_style\cloud_style\obj\x64\Debug\cloud_style.Login.resources
+C:\Users\ansetech80\source\repos\cloud_style\cloud_style\obj\x64\Debug\cloud_style.Join.resources
+C:\Users\ansetech80\source\repos\cloud_style\cloud_style\obj\x64\Debug\cloud_style.MainPage.resources
+C:\Users\ansetech80\source\repos\cloud_style\cloud_style\obj\x64\Debug\cloud_style.Properties.Resources.resources
+C:\Users\ansetech80\source\repos\cloud_style\cloud_style\obj\x64\Debug\cloud_style.csproj.GenerateResource.cache
+C:\Users\ansetech80\source\repos\cloud_style\cloud_style\obj\x64\Debug\cloud_style.csproj.CoreCompileInputs.cache
+C:\Users\ansetech80\source\repos\cloud_style\cloud_style\obj\x64\Debug\cloud_style.exe
+C:\Users\ansetech80\source\repos\cloud_style\cloud_style\obj\x64\Debug\cloud_style.pdb
