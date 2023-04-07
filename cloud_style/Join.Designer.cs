@@ -40,6 +40,8 @@
 			this.label3 = new System.Windows.Forms.Label();
 			this.panel4 = new System.Windows.Forms.Panel();
 			this.textBox1 = new System.Windows.Forms.TextBox();
+			this.button2 = new System.Windows.Forms.Button();
+			this.panel3.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// panel3
@@ -47,6 +49,7 @@
 			this.panel3.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
 			this.panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel3.BackgroundImage")));
 			this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.panel3.Controls.Add(this.button2);
 			this.panel3.ForeColor = System.Drawing.SystemColors.Control;
 			this.panel3.Location = new System.Drawing.Point(0, 0);
 			this.panel3.Margin = new System.Windows.Forms.Padding(0);
@@ -159,6 +162,24 @@
 			this.textBox1.Size = new System.Drawing.Size(188, 14);
 			this.textBox1.TabIndex = 1;
 			// 
+			// button2
+			// 
+			this.button2.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+			this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.button2.FlatAppearance.BorderSize = 0;
+			this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGray;
+			this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.button2.Font = new System.Drawing.Font("나눔스퀘어 네오 OTF Heavy", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+			this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+			this.button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+			this.button2.Location = new System.Drawing.Point(3, 3);
+			this.button2.Name = "button2";
+			this.button2.Size = new System.Drawing.Size(21, 21);
+			this.button2.TabIndex = 7;
+			this.button2.Text = "←";
+			this.button2.UseVisualStyleBackColor = false;
+			this.button2.Click += new System.EventHandler(this.button2_Click);
+			// 
 			// Join
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -180,6 +201,7 @@
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "join";
 			this.Load += new System.EventHandler(this.Join_Load);
+			this.panel3.ResumeLayout(false);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -198,5 +220,6 @@
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Panel panel4;
 		private System.Windows.Forms.TextBox textBox1;
+		private System.Windows.Forms.Button button2;
 	}
 }

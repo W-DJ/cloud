@@ -108,6 +108,12 @@ namespace cloud_style
 				}
 			}
 		}
+
+		private void button2_Click(object sender, EventArgs e)
+		{
+			login.Show();
+			Close();
+		}
 	}
 
 
