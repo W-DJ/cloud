@@ -176,11 +176,6 @@ namespace cloud_style
 						}
 
 
-
-
-
-
-
 					}
 				}
 				catch (Exception)
@@ -193,9 +188,26 @@ namespace cloud_style
 
 		private void button2_Click(object sender, EventArgs e)
 		{
+
+			DialogResult result = MessageBox.Show("회원가입 하시겠습니까?", "회원가입", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
+			//MessageBox.Show("회원가입 하시겠습니까?","회원가입",MessageBoxButtons.YesNoCancel,MessageBoxIcon.Question);
 			Join join = new Join();
+			
+			if (result == DialogResult.Yes)
+			{
 			join.Show();
 			Hide();
+
+			}else if (result == DialogResult.No)
+			{
+				return;
+			}else if (result == DialogResult.Cancel) {
+				return;
+			}
+			else
+			{
+				return;
+			}
 		}
 	}
 
